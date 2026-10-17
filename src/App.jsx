@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/sections/hero/Hero'
 import Players from './components/sections/players/Players'
+import Footer from './components/footer/Footer'
 
 const playerFetch = async () => {
   const res = await fetch('data.json')
@@ -23,6 +24,9 @@ function App() {
           <Players playersPromise={playersPromise} setCoin={setCoin}></Players>
         </Suspense>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }

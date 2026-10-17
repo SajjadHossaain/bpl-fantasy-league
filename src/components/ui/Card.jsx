@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaFlag, FaUser } from "react-icons/fa";
 
+
 const Card = ({ player,setCoin}) => {
   const [isSelected,setIsSelected] = useState(false)
   const handleChoosePlayer=()=>{
