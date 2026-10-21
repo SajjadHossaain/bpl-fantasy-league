@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -6,6 +5,7 @@
     "playerCountry": "India",
     "playerType": "Batsman",
     "rating": 95,
+    "playerPrice": 15000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm medium",
     "playerImage": "https://i.ibb.co.com/7JgShr83/virat-kholi.webp"
@@ -16,6 +16,7 @@
     "playerCountry": "India",
     "playerType": "Batsman",
     "rating": 92,
+    "playerPrice": 14000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm off-break",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -26,6 +27,7 @@
     "playerCountry": "Pakistan",
     "playerType": "Batsman",
     "rating": 94,
+    "playerPrice": 13500000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm off-break",
     "playerImage": "https://i.ibb.co.com/Pskm87tX/babar-azam.webp"
@@ -36,6 +38,7 @@
     "playerCountry": "England",
     "playerType": "Batsman",
     "rating": 91,
+    "playerPrice": 12000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm off-break",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -46,6 +49,7 @@
     "playerCountry": "New Zealand",
     "playerType": "Batsman",
     "rating": 90,
+    "playerPrice": 11000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm off-break",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -56,6 +60,7 @@
     "playerCountry": "Bangladesh",
     "playerType": "All-rounder",
     "rating": 93,
+    "playerPrice": 13000000,
     "battingStyle": "Left-handed",
     "bowlingStyle": "Slow left-arm orthodox",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -66,6 +71,7 @@
     "playerCountry": "England",
     "playerType": "All-rounder",
     "rating": 91,
+    "playerPrice": 12500000,
     "battingStyle": "Left-handed",
     "bowlingStyle": "Right-arm fast-medium",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -76,6 +82,7 @@
     "playerCountry": "India",
     "playerType": "All-rounder",
     "rating": 89,
+    "playerPrice": 10000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm fast-medium",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -86,6 +93,7 @@
     "playerCountry": "Afghanistan",
     "playerType": "Bowler",
     "rating": 94,
+    "playerPrice": 13500000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm leg-break",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -96,6 +104,7 @@
     "playerCountry": "India",
     "playerType": "Bowler",
     "rating": 96,
+    "playerPrice": 15000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm fast",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -106,6 +115,7 @@
     "playerCountry": "Pakistan",
     "playerType": "Bowler",
     "rating": 91,
+    "playerPrice": 11500000,
     "battingStyle": "Left-handed",
     "bowlingStyle": "Left-arm fast",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -116,6 +126,7 @@
     "playerCountry": "Australia",
     "playerType": "Bowler",
     "rating": 92,
+    "playerPrice": 12500000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm fast",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -126,6 +137,7 @@
     "playerCountry": "England",
     "playerType": "Wicketkeeper-Batsman",
     "rating": 90,
+    "playerPrice": 11000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm medium",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -136,6 +148,7 @@
     "playerCountry": "New Zealand",
     "playerType": "Bowler",
     "rating": 89,
+    "playerPrice": 9500000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Left-arm fast-medium",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"
@@ -146,6 +159,7 @@
     "playerCountry": "Bangladesh",
     "playerType": "Wicketkeeper-Batsman",
     "rating": 86,
+    "playerPrice": 7000000,
     "battingStyle": "Right-handed",
     "bowlingStyle": "Does not regularly bowl",
     "playerImage": "https://i.ibb.co.com/1Jbxh7fw/rohit-sharma.jpg"

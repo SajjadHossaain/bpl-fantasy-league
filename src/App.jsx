@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/sections/hero/Hero'
 import Players from './components/sections/players/Players'
 import Footer from './components/footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 const playerFetch = async () => {
   const res = await fetch('data.json')
@@ -12,7 +13,7 @@ const playerFetch = async () => {
 
 function App() {
   const playersPromise = playerFetch()
-  const [coin,setCoin] = useState(50000)
+  const [coin,setCoin] = useState(50000000)
   return (
     <>
       <header>
@@ -20,13 +21,22 @@ function App() {
       </header>
       <main>
         <Hero></Hero>
-        <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-          <Players playersPromise={playersPromise} setCoin={setCoin}></Players>
+        <Suspense
+          fallback={
+            <span className="loading loading-spinner loading-xl"></span>
+          }
+        >
+          <Players
+            playersPromise={playersPromise}
+            setCoin={setCoin}
+            coin={coin}
+          ></Players>
         </Suspense>
       </main>
       <footer>
         <Footer></Footer>
       </footer>
+      <ToastContainer />
     </>
   );
 }

@@ -27,7 +27,7 @@ const navItems = [
 ];
 
 const Navbar = ({ coin }) => {
-  const links = navItems.map((route) => <Link route={route}></Link>);
+  const links = navItems.map((route,index) => <Link key={index} route={route}></Link>);
   return (
     <div className="container gap-2 justify-between mx-auto navbar bg-base-100 shadow-sm overflow-hidden">
       <div className="w-20 h-20 shrink-0 rounded-2xl">

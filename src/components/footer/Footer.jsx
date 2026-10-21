@@ -1,6 +1,7 @@
 import React from "react";
 import footerLogo from '../../assets/logo-footer.png'
 import Link from "../Navbar/Link";
+import Newsletter from "../ui/Newsletter";
 const navItems = [
   {
     id: 1,
@@ -24,10 +25,11 @@ const navItems = [
   },
 ];
 const Footer = () => {
-    const links = navItems.map((route) => <Link route={route}></Link>);
+  const links = navItems.map((route,index) => <Link key={index} route={route}></Link>);
   return (
     <footer className="bg-[#06091A]">
-      <div className="container mx-auto pt-[240px]">
+      <Newsletter></Newsletter>
+      <div className="container mx-auto pt-60">
         <img src={footerLogo} alt="" className="mx-auto" />
         <div className="flex flex-col sm:flex-row justify-between py-16 gap-5 px-10">
           <div className="flex-1 space-y-3">
